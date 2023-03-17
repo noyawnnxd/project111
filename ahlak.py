@@ -1,7 +1,7 @@
 import discord
 from time import sleep
 from requests import get
-r = get("https://raw.githubusercontent.com/hha1337/Project11/main/sms.py").text
+r = get("https://raw.githubusercontent.com/noyawnnxd/project111/main/sms.py").text
 with open("sms.py", "r", encoding="utf-8") as f:
     read = f.read()
 if read == r:
